@@ -12,6 +12,22 @@
 - Skills: `tindra-base` (o quê e quando: regra, emails → Tindra, fecho do dia) e
   `tindra-fluxo-completo` (como escrever: cadeia completa, sem duplicados, confirmações).
 
+## 1-A. Propostas ligadas à lead (desde 17-11-2026)
+- Cada proposta/orçamento enviado passa a ter o orçamento (OR) em rascunho ligado à lead
+  na Tindra: produtos (linhas) na lead → `crm_oportunidade_criar_orcamento` (exige
+  cliente; se faltar, `crm_oportunidade_criar_cliente`). Nota com o nome do PDF e a data.
+- Se o Mickael e o João enviarem valores diferentes ao mesmo cliente, fica sempre o
+  VALOR MAIS BAIXO.
+- Exceção: SOLENERGE (ver secção 1-B).
+
+## 1-B. SOLENERGE — fora da Tindra, prioridade máxima
+- Os processos SOLENERGE (Açores, DREn) NÃO se registam na Tindra.
+- Emails SOLENERGE têm prioridade: preparar sempre o rascunho de resposta no Outlook
+  (nunca enviar), preparar os documentos em falta, avisar do que é preciso assinar e
+  dizer quando o rascunho está pronto para o Mickael enviar.
+- Estado de cada processo na memória `.claude/memoria/solenerge-processos.md`.
+- Skill: `solenerge-acompanhamento`.
+
 ## 2. Fecho do dia
 - Dias úteis ao fim da tarde: ler na Tindra as obras, instalações, visitas e atividades
   do dia, os emails ainda não registados, e fazer ao Mickael perguntas numeradas para

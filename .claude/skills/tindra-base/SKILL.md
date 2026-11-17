@@ -1,11 +1,11 @@
 ---
 name: tindra-base
-description: "A Tindra é a BASE DE TUDO na JP Solar Solutions: CRM, obras, agenda, orçamentos, faturação. Esta skill define a regra «Tindra primeiro», o registo automático de cada email que entra (leads, pedidos de orçamento, respostas de clientes, documentos SOLENERGE) e o FECHO DO DIA: ao fim da tarde lê as obras, instalações, visitas e atividades agendadas na Tindra e faz ao Mickael as perguntas para as fechar (concluída, registada, certificada, reagendar...). Disparar com: «fecho do dia», «o que ficou do dia», «revê a agenda», «passa os emails para a Tindra», «regista os emails», «o que temos amanhã», «que obras estão por fechar», «a obra X acabou / está registada / está certificada», qualquer email de cliente ou fornecedor que chegue, e sempre que uma conversa produza um facto de negócio (orçamento feito, visita marcada, cliente aceitou, obra concluída). Para EXECUTAR as escritas usa a skill tindra-fluxo-completo."
+description: "A Tindra é a BASE DE TUDO na JP Solar Solutions: CRM, obras, agenda, orçamentos, faturação. Esta skill define a regra «Tindra primeiro», o registo automático de cada email que entra (leads, pedidos de orçamento, respostas de clientes; os SOLENERGE seguem à parte na skill solenerge-acompanhamento) e o FECHO DO DIA: ao fim da tarde lê as obras, instalações, visitas e atividades agendadas na Tindra e faz ao Mickael as perguntas para as fechar (concluída, registada, certificada, reagendar...). Disparar com: «fecho do dia», «o que ficou do dia», «revê a agenda», «passa os emails para a Tindra», «regista os emails», «o que temos amanhã», «que obras estão por fechar», «a obra X acabou / está registada / está certificada», qualquer email de cliente ou fornecedor que chegue, e sempre que uma conversa produza um facto de negócio (orçamento feito, visita marcada, cliente aceitou, obra concluída). Para EXECUTAR as escritas usa a skill tindra-fluxo-completo."
 ---
 
 # Tindra primeiro — base de tudo da JP Solar
 
-**Versão 2026-11-17.** Regra n.º 1, acima de qualquer outra: **se aconteceu, tem de estar
+**Versão 2026-11-17 (rev. 2).** Regra n.º 1, acima de qualquer outra: **se aconteceu, tem de estar
 na Tindra.** Um email, um orçamento, uma visita, uma obra acabada, um registo na DGEG/DREn
 — nada fica só no Outlook, no SharePoint, no WhatsApp ou na conversa.
 
@@ -18,7 +18,8 @@ verificar no fim). Esta skill diz **o quê e quando**; a outra diz **como**.
 1. **Antes de responder sobre um cliente, obra ou orçamento**, lê a Tindra
    (`pesquisar_tudo` → `ler_registo`). A Tindra é a fonte da verdade; o resto é apoio.
 2. **Depois de qualquer trabalho que gere um facto de negócio**, regista-o na Tindra no
-   mesmo turno (orçamento feito → linhas + nota na lead + etapa; visita marcada →
+   mesmo turno (orçamento feito → linhas na lead + **OR em rascunho ligado** com
+   `crm_oportunidade_criar_orcamento` + nota com o PDF + etapa `orcamento_enviado`; visita marcada →
    `crm_oportunidade_agendar_visita`; obra acabou → `obras.obra.concluir`; etc.).
 3. **Nenhuma lead ou obra em aberto fica sem próximo passo** (atividade com prazo e
    responsável).
@@ -34,6 +35,13 @@ Para «temos de fazer orçamento?», «já foi enviado?», «quem faz?»:
   `orcamento_enviado` → **enviado** (por quem: ver histórico/autor).
 - `negociacao` → à espera de decisão; `adjudicado` (ganha) → nasce a obra.
 
+### Valores em conflito
+Se o Mickael e o João enviarem propostas diferentes ao mesmo cliente, fica na Tindra o
+**valor mais baixo** (regra do Mickael, 17-11-2026).
+
+### Exceção SOLENERGE
+Processos SOLENERGE ficam FORA da Tindra — ver skill `solenerge-acompanhamento`.
+
 ## 2. Emails → Tindra (cada email que entra)
 
 Fontes: caixa do Mickael e `geral@` (Outlook, `outlook_email_search` + `read_resource`).
@@ -47,7 +55,7 @@ DREn, DGEG, EDA, E-Redes)** — ignora newsletters, publicidade e emails automá
 | Cliente aceita / adjudica | F4 (marcar ganha → obra). **Confirma comigo antes** |
 | Cliente aceita dia e hora de visita | F2: `crm_oportunidade_agendar_visita` (ou atualizar a marcação existente) |
 | Empreiteiro pede cotação / insiste | Lead (ou atualizar a existente) + atividade com prazo curto e prioridade |
-| Documentos SOLENERGE / registo UPAC (fatura EDA, CPE, certidões) | Nota + anexo (se pequeno) na obra/lead; atualiza o processo de apoio (`obras.processo_apoio`) e a atividade |
+| Qualquer email SOLENERGE / DREn / registo UPAC Açores | **NÃO vai para a Tindra.** Tratar PRIMEIRO com a skill `solenerge-acompanhamento` (rascunho de resposta, documentos, memória própria) |
 | Fatura de fornecedor | `compras_carregar_fatura_fornecedor` em rascunho, ligada à obra |
 | Desistência | F8: perdida com motivo. **Confirma comigo antes** |
 
@@ -65,6 +73,7 @@ Corre `date` primeiro. Fuso da empresa: Atlantic/Azores; as obras do Continente 
 Europe/Lisbon — mostra as horas no fuso da obra.
 
 **Recolha (só leitura):**
+0. SOLENERGE primeiro: skill `solenerge-acompanhamento` (emails novos, memória, rascunhos, assinaturas).
 1. `resumo` — atividades atrasadas/hoje/planeadas.
 2. `agenda.marcacao` com início hoje (e amanhã, para preparar): instalações, visitas,
    reuniões — com obra/lead ligada e participantes.
