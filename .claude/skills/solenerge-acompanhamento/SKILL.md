@@ -11,8 +11,9 @@ description: "Acompanhamento PRIORITÁRIO dos processos SOLENERGE (Açores, DREn
 2. **Prioridade máxima.** Em qualquer revisão de emails, os SOLENERGE vêm primeiro.
 3. **Preparar sempre a resposta**, em rascunho no Outlook do Mickael
    (`outlook_create_reply_draft` / `outlook_create_reply_all_draft` /
-   `outlook_create_draft`). **Nunca enviar.** No fim, dizer: «Rascunho pronto para
-   enviares: <assunto> → <destinatário>».
+   `outlook_create_draft`). **Nunca enviar diretamente**: o envio só acontece pelo
+   circuito da skill `revisao-rascunhos` (agente `revisor-rascunhos` aprova → envia).
+   No fim, dizer: «Rascunho pronto: <assunto> → <destinatário>» e o veredicto do revisor.
 4. **Se faltar documentação** para responder: preparar o que for possível (PDFs com as
    skills abaixo), deixar o rascunho pronto e dizer exatamente o que falta e quem o dá.
 5. **Assinaturas:** se algum documento tiver de ser assinado (pelo Mickael, pelo gerente
