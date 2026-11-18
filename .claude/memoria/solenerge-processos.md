@@ -5,9 +5,9 @@ Regras: skill `solenerge-acompanhamento`. Nunca guardar aqui credenciais de clie
 
 ## Próximas ações por prioridade
 1. **URGENTE** 29671 — enviar rascunho ao Raul Costa (DREn) com as fotos dos 13 painéis. Prazo **27/11**.
-2. **URGENTE** 29739 — confirmar que o registo UPAC ID 9385 foi submetido no Portal e enviar o rascunho a serup.energia@. Prazo **27/11**.
+2. FEITO 18/11 08:28 — 29739 registo UPAC ID 9385 (confirmado pelo Mickael) comunicado à DREn.
 3. **URGENTE** 29739 — Declaração de Veracidade (Anexo IV) com assinatura válida do cliente. Prazo DREn **20/11**. O João diz que a enviou a 16/11; não há esse email na caixa do Mickael: confirmar.
-4. Enviados 18/11: Gomez, Sílvia, Nicole, Roger, Paulo. Falta 17267 Rafael (depende da pergunta à DREn sobre o extrato da JP).
+4. Enviados 18/11: Gomez, Sílvia, Nicole, Roger, Paulo; 08:28 registo 29739 (ID 9385) à DREn; 08:32 Rafael 17267 (a JP envia o extrato). 08:33 pedido ao João dos extratos de 17267, 16306, 30547, 29630.
 5. Fase 3 (prazo ~12/12): comprovativos de pagamento do João para 16306, 30547, 29630 → submeter na plataforma; Helena (29630) decidir o login; DREn: o 17267 precisa do extrato da JP?; 14871 confirmar submissão (prazo 06/12).
 6. 17934 vs 17935 (Manuel Caetano Melo, mesmo NIF): duas candidaturas ou erro?
 7. Responder à Valéria (vcsvaleria@hotmail.com, n.º ?) e à Marisa Matos (29493) sobre a bateria; ver estado de 29560, 29435, 27469.
