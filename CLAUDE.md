@@ -52,6 +52,14 @@
 - Perguntas ao Mickael: sempre com opções para escolher (ferramenta de perguntas com
   opções), nunca só em texto no meio da mensagem.
 
+## 2-C. WhatsApp
+- Não há ligação direta ao WhatsApp. Quando o Mickael pedir «responde por WhatsApp a X»:
+  1) ler o contacto e o histórico na Tindra/Outlook; 2) escrever a mensagem no padrão JP
+  (curta, «Bom dia/Boa tarde», valores em *negrito*, sem câmbio/USD nem outros clientes);
+  3) dar o link pronto a enviar https://wa.me/<número sem +>?text=<mensagem codificada>
+  e dizer que PDF juntar; 4) depois de ele confirmar o envio, registar na Tindra (nota,
+  etapa, próxima atividade) e apagar rascunhos de email equivalentes, se ele aprovar.
+
 ## 3. Limites
 - Estados de obra, ganhar/perder leads, faturação e comandos ⚠️ IRREVERSÍVEIS: confirmar
   primeiro. Lead nova, dados de contacto, notas e atividades: fazer logo.
