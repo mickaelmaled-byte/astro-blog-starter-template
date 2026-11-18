@@ -33,6 +33,7 @@
   `revisao-rascunhos`): APROVADO → o revisor envia; CORRIGIR → o agente principal corrige
   e volta a submeter; BLOQUEADO (assinatura, facto por confirmar, decisão) → pergunta ao
   Mickael. Nunca enviar rascunhos que o Mickael mandou segurar.
+- Depois de enviar, pôr a categoria «Respondido» no email original recebido.
 
 ## 2. Fecho do dia
 - Dias úteis ao fim da tarde: ler na Tindra as obras, instalações, visitas e atividades

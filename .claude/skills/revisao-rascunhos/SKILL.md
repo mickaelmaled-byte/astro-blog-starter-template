@@ -21,6 +21,9 @@ aprovar. Tudo o resto volta para correção.
 4. Após 3 rondas sem aprovação → passa a BLOQUEADO.
 5. Envio: o revisor envia os APROVADOS (modo «enviar»).
 6. **Depois do envio:**
+   - pôr a categoria **«Respondido»** no email original recebido (`outlook_modify_labels`,
+     addCategories ["Respondido"]) — o conector não marca como lido; a categoria mostra
+     ao Mickael que já foi respondido (regra do Mickael, 18-11-2026);
    - não SOLENERGE → registar na Tindra (skill tindra-base: nota no histórico, etapa,
      OR ligado à lead, próxima atividade);
    - SOLENERGE → atualizar `.claude/memoria/solenerge-processos.md` (último enviado,
