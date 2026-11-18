@@ -12,6 +12,16 @@
 - Skills: `tindra-base` (o quê e quando: regra, emails → Tindra, fecho do dia) e
   `tindra-fluxo-completo` (como escrever: cadeia completa, sem duplicados, confirmações).
 
+## 1-0. Cliente primeiro — ver tudo antes de escrever (regra do Mickael, 18-11-2026)
+- Antes de preparar qualquer rascunho, resposta, mensagem de WhatsApp ou proposta para um
+  cliente, ler SEMPRE: (1) a Tindra — lead/obra, notas, histórico, atividades e o que o
+  João/Pedro/Miguel registaram; (2) todo o histórico de emails com esse cliente (recebidos
+  e enviados, incluindo os que a geral@ pôs em cópia); (3) a memória SOLENERGE, se for o
+  caso; (4) as sessões anteriores do Claude sobre esse cliente, se houver rascunhos ou
+  promessas pendentes (list_sessions / list_events).
+- Nada fica pendurado: rascunhos e emails por preparar vão ao revisor (secção 1-C); as
+  dúvidas sobre cada um perguntam-se ao Mickael com opções.
+
 ## 1-A. Propostas ligadas à lead (desde 17-11-2026)
 - Cada proposta/orçamento enviado passa a ter o orçamento (OR) em rascunho ligado à lead
   na Tindra: produtos (linhas) na lead → `crm_oportunidade_criar_orcamento` (exige

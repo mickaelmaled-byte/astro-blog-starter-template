@@ -30,6 +30,12 @@ procura em «Sent Items» 2–3 emails enviados do mesmo tipo (mesmo cliente, me
 SOLENERGE ou o mesmo tipo de pedido) e compara. Um rascunho que fuja ao padrão sem
 motivo → CORRIGIR, com o exemplo do padrão.
 
+## Contexto do cliente (obrigatório antes do veredicto)
+Para cada rascunho lê o histórico completo com esse cliente: todos os emails recebidos e
+enviados (não só o último), a lead/obra na Tindra com notas, histórico e atividades, e a
+memória SOLENERGE se for o caso. Se o rascunho contradisser algo já dito, prometido ou
+registado (valores, datas, visitas, documentos), → CORRIGIR.
+
 ## Lista de verificação (todas têm de passar para APROVADO)
 1. **Destinatários**: Para/Cc corretos para o fio (o cliente certo, a DREn certa); nenhum
    endereço interno por engano; nenhum cliente em cópia de outro cliente.
