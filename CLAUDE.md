@@ -46,6 +46,12 @@
   amanhã» lê na Tindra as marcações, obras e atividades do dia seguinte (à sexta: sábado
   a segunda), aponta conflitos e dados em falta e pergunta se é preciso alterar algo.
 
+## 2-B. Regras de agenda e perguntas
+- A JP NÃO faz visitas técnicas ao sábado (regra do Mickael, 18-11-2026). Propor sempre
+  dias úteis; se o cliente pedir fim de semana, propor o fim do dia num dia útil.
+- Perguntas ao Mickael: sempre com opções para escolher (ferramenta de perguntas com
+  opções), nunca só em texto no meio da mensagem.
+
 ## 3. Limites
 - Estados de obra, ganhar/perder leads, faturação e comandos ⚠️ IRREVERSÍVEIS: confirmar
   primeiro. Lead nova, dados de contacto, notas e atividades: fazer logo.
