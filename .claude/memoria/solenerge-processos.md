@@ -4,7 +4,7 @@ Atualizado em 2026-11-18 08:30 (Lisboa). Enviados hoje 08:21 (revisor): 30686 Go
 Regras: skill `solenerge-acompanhamento`. Nunca guardar aqui credenciais de clientes.
 
 ## Próximas ações por prioridade
-1. **URGENTE** 29671 — enviar rascunho ao Raul Costa (DREn) com as fotos dos 13 painéis. Prazo **27/11**.
+1. FEITO 18/11 08:35 — 29671 fotos enviadas ao Raul Costa (DREn). Aguarda DREn.
 2. FEITO 18/11 08:28 — 29739 registo UPAC ID 9385 (confirmado pelo Mickael) comunicado à DREn.
 3. **URGENTE** 29739 — Declaração de Veracidade (Anexo IV) com assinatura válida do cliente. Prazo DREn **20/11**. O João diz que a enviou a 16/11; não há esse email na caixa do Mickael: confirmar.
 4. Enviados 18/11: Gomez, Sílvia, Nicole, Roger, Paulo; 08:28 registo 29739 (ID 9385) à DREn; 08:32 Rafael 17267 (a JP envia o extrato). 08:33 pedido ao João dos extratos de 17267, 16306, 30547, 29630.
@@ -142,3 +142,8 @@ Regras: skill `solenerge-acompanhamento`. Nunca guardar aqui credenciais de clie
 ## Valéria — n.º ?
 - Contactos: vcsvaleria@hotmail.com
 - 08/10 perguntou se a candidatura já foi comunicada à EDA e quando vem a bateria — sem resposta encontrada
+
+
+## Atualização 18/11 08:45
+- 29435 (Álvaro Oliveira / D. Mariana Meneses Oliveira, marianamoliveira95@gmail.com): enviado pedido de assinatura do 1.º Aditamento ao Termo de Aceitação pela D. Mariana (beneficiária). Falta: documento assinado (cliente) → depois a JP envia à DREn.
+- 29671: resposta à DREn enviada 18/11 08:35 com as fotos.
