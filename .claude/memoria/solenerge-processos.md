@@ -1,13 +1,13 @@
 # Memória SOLENERGE — JP Solar Solutions (fora da Tindra)
 
-Atualizado em 2026-11-17 21:00 (Lisboa) — levantamento dos emails de 18/09 a 17/11/2026.
+Atualizado em 2026-11-18 08:30 (Lisboa). Enviados hoje 08:21 (revisor): 30686 Gomez, 29739 Sílvia, 29671 Nicole, 30547 Paulo, 16306 Roger.
 Regras: skill `solenerge-acompanhamento`. Nunca guardar aqui credenciais de clientes.
 
 ## Próximas ações por prioridade
 1. **URGENTE** 29671 — enviar rascunho ao Raul Costa (DREn) com as fotos dos 13 painéis. Prazo **27/11**.
 2. **URGENTE** 29739 — confirmar que o registo UPAC ID 9385 foi submetido no Portal e enviar o rascunho a serup.energia@. Prazo **27/11**.
 3. **URGENTE** 29739 — Declaração de Veracidade (Anexo IV) com assinatura válida do cliente. Prazo DREn **20/11**. O João diz que a enviou a 16/11; não há esse email na caixa do Mickael: confirmar.
-4. Enviar os rascunhos aos clientes: 30686 Gomez, 29739 Sílvia, 29671 Nicole, 16306 Roger, 30547 Paulo, 17267 Rafael (Mickael vê a 18/11).
+4. Enviados 18/11: Gomez, Sílvia, Nicole, Roger, Paulo. Falta 17267 Rafael (depende da pergunta à DREn sobre o extrato da JP).
 5. Fase 3 (prazo ~12/12): comprovativos de pagamento do João para 16306, 30547, 29630 → submeter na plataforma; Helena (29630) decidir o login; DREn: o 17267 precisa do extrato da JP?; 14871 confirmar submissão (prazo 06/12).
 6. 17934 vs 17935 (Manuel Caetano Melo, mesmo NIF): duas candidaturas ou erro?
 7. Responder à Valéria (vcsvaleria@hotmail.com, n.º ?) e à Marisa Matos (29493) sobre a bateria; ver estado de 29560, 29435, 27469.
@@ -34,7 +34,8 @@ Regras: skill `solenerge-acompanhamento`. Nunca guardar aqui credenciais de clie
 - Falta: enviar as fotos (13 painéis) ao Raul Costa (JP)
 - Prazo: 27/11 — resposta à DREn
 - Assinaturas pendentes: nenhuma
-- Rascunhos prontos: «RE: SOLENERGE/29671/38218» (Raul, cc Nicole, com anexos — rever fotos repetidas); «RE: SOLENERGE 29671 — fotografias» (Nicole)
+- Rascunhos prontos: «RE: SOLENERGE/29671/38218» (Raul, cc Nicole) — o Mickael tem de retirar os 4 JPG repetidos e deixar só o PDF (o conector não remove anexos). Fotos da cliente: 3 + 10 painéis = 13.
+- Enviado 18/11 08:21: resposta à Nicole (fotos recebidas; nós enviamos à DREn)
 
 ## 30686 — Marco Antonio Gomez
 - Contactos: drgomez7@hotmail.com; DREn Duarte NCS Pereira, serup.energia@
@@ -42,7 +43,7 @@ Regras: skill `solenerge-acompanhamento`. Nunca guardar aqui credenciais de clie
 - Último recebido: 17/11 17:42 cliente — fatura EDA
 - Último enviado: 17/11 15:07 — comunicação do registo (cc cliente); certidões AT/SS 09/11
 - Falta: nada da JP; aguarda DREn
-- Rascunhos prontos: resposta ao Sr. Gomez a confirmar o ID 9377
+- Enviado 18/11 08:20: resposta ao Sr. Gomez (ID 9377). Aguarda DREn.
 
 ## 29620 — Isabel Rodrigues Albano (Fajã de Baixo, S. Miguel?)
 - Contactos: rodriguesisabel@hotmail.com, 917 593 350; DREn Cátia JB. Medeiros
